@@ -23,7 +23,7 @@ export function Nav() {
   }
 
   return (
-    <NavigationMenu className="h-full *:h-full max-md:hidden">
+    <NavigationMenu className="h-full *:h-full">
       <NavigationMenuList className="h-full gap-2">
         {navigationLinks.map((link) => (
           <NavigationMenuItem key={link.label.toLowerCase()} className="h-full">
