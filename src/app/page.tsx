@@ -9,7 +9,11 @@ export default function HomePage() {
           Professional Greek Translator & Proofreader
         </p>
       </section>
-      <section id="portfolio"></section>
+      <section id="portfolio">
+        <h2 className="scroll-m-20 text-3xl md:text-4xl font-semibold tracking-tight first:mt-0">
+          Portfolio
+        </h2>
+      </section>
     </main>
   );
 }
